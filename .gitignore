@@ -5,3 +5,5 @@ results_val/
 my_runs/
 runs/
 _eval_debug.sh
+.vscode/
+ns_sk_saluda/
