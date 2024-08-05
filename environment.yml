@@ -1,0 +1,24 @@
+name: saluda-hung
+channels:
+  - conda-forge
+dependencies:
+  - conda-forge::python
+  - conda-forge::pip
+  - conda-forge::cudatoolkit-dev=11.3
+  - pip:
+    - matplotlib
+    - numpy<1.20
+    - nuscenes-devkit
+    - pandas
+    - pillow
+    - sacred==0.8.4
+    - scikit-learn
+    - scipy
+    - tensorboard
+    - torch-tb-profiler>=0.2.0
+    - tqdm
+    - PyYAML
+    - torch==1.11.0+cu113
+    - torchvision==0.12.0+cu113
+    - torch_geometric
+    - --extra-index-url https://download.pytorch.org/whl/cu113
